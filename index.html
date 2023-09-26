@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triumph Motos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Triumph Motos</h1>
+        <span></span>
+        <a href="#modelo1" class="botao">Modelos</a>
+        <!--LINK/Botão-->
+    </header>
+    
+    <section id="modelo1">
+        <ul>
+            <li>
+                <div>
+                    <div class=card>
+                        <div class="card-image-wrapper">
+                            <img src="./assets/images/moto2.jpg" alt="Modelo da moto Tiger 800 XRX 2018">
+                        </div>
+                        <div>
+                            <div class="card-content">
+                                <h2> Triumph Tiger 800 XRX </h2>
+                                <p> Se você gosta de viagens longas essa é a moto certa</p>
+                                <a href="#secao-orcamento" class="botao">Simular Orçamento</a>
+                            </div>
+            </li>
+            <li>
+                <div class=card>
+                    <div class="card-image-wrapper">
+                        <img src="./assets/images/moto3.jpg" alt="Modelo da moto Tiger 800 XCA 2020">
+                    </div>
+                    <div>
+                        <div class="card-content">
+                            <h2> Triumph Tiger 800 XCA </h2>
+                            <p> Se você gosta de viagens longas essa é a moto certa</p>
+                            <a href="#secao-orcamento" class="botao">Simular Orçamento</a>
+                        </div>
+            </li>
+            <li>
+                <div class=card>
+                    <div class="card-image-wrapper">
+                        <img src="https://www.zabikers.co.za/wp-content/uploads/2020/10/rally.jpg" alt="Modelo da moto Tiger 900 Rally Pro 2023">
+                    </div>
+                    <div>
+                        <div class="card-content">
+                            <h2> Triumph Tiger 900 Rally Pro </h2>
+                            <p> Se você gosta de viagens longas essa é a moto certa</p>
+                            <a href="#secao-orcamento" class="botao">Simular Orçamento</a>
+                        </div>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section id="secao-orcamento">
+        <h2>Simule o orçamento da sua Tiger</h2>
+
+        <form action="" id="form-orcamento">
+            <div class="campo linha">
+                <label for="Nome">Nome</label>
+                <input type="text" id="Nome">
+            </div>
+
+            <div class="campo linha">
+                <label for="numero">Número para contato</label>
+                <input type="tel">
+            </div>
+
+            <div class="campo linha">
+                <label for="email">Informe seu email</label>
+                <input type="mail" id="email">
+            </div>
+
+            <div class="campo linha">
+                <label for="cep">Informe seu CEP</label>
+                <input type="text" >
+                <small>Para localizarmos a agência mais próximo para contata-lo(a)</small>
+            </div>
+
+            <div class="campo">
+                <label for="cc">Cilindrada Desejada</label>
+                <select name="cc" id="cc">
+                    <option value="1">800</option>
+                    <option value="2">900</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="layout">Deseja agendar uma visita?</label>
+                <div>
+                <input name="layout" type="radio" id="layout_sim">
+                <label for="layout_sim">Sim</label>
+                <input name="layout" type="radio" id="layout_nao">
+                <label for="layout_nao">Não</label>
+            </div>
+        </div>
+
+
+            <div class="campo">
+                <label for="modelo">Modelo desejado</label>
+                <select name="modelo" id="modelo">
+                    <option value="1">XRX</option>
+                    <option value="2">XCA</option>
+                    <option value="3">Rally Pro</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="cor">Cor da Moto</label>
+                <select name="cor" id="cor">
+                    <option value="1">Verde</option>
+                    <option value="2">Branca</option>
+                    <option value="3">Preta</option>
+                    <option value="4">Laranja</option>
+                    <option value="5">Vermelha</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="anomodelo">Ano da moto</label>
+                <select name="anomodelo" id="anomodelo">
+                    <option value="1">2016</option>
+                    <option value="2">2017</option>
+                    <option value="3">2018</option>
+                    <option value="4">2019</option>
+                    <option value="5">2020</option>
+                    <option value="6">2021</option>
+                    <option value="7">2022</option>
+                    <option value="8">2023</option>
+                </select>
+            </div>
+            <output>R$ 25.000,00</output>
+        </form>
+    </section>
+</body>
+
+</html>
