@@ -122,6 +122,7 @@ span{
 .card:hover .card-content{
   opacity: 10;
   transform: translateY(0);
+  
 }
 
 #modelo1 ul {
@@ -132,6 +133,7 @@ span{
 }
 
 .card-content{ 
+  
   display: flex;
   flex-direction: column;
   gap: 1rem;
