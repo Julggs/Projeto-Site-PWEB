@@ -26,6 +26,68 @@ header::before{
   z-index: -1;
 }
 
+#menu-icon{
+  color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 10;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+  text-shadow: rgb(255, 255, 255) 2px 2px 2px;
+}
+
+#menu{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  height: 1rem;
+  position: fixed;
+  background-color: #727272;
+  width: 100vw;
+  padding: 2.5rem;
+  right: 0;
+  z-index: 9;
+  transform: translateX(100%);
+  transition: 1s;
+}
+
+#menu a{
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#menu ul{
+  align-items: center;
+  position: fixed;
+  display: flex;
+  gap: 5rem;
+}
+
+aside nav{
+  display: contents;
+
+}
+
+#menu.open{
+  transform: translateX(0%);
+}
+
+.icon{
+  width: 24px;
+  height: 24px;
+}
+
+#menu li{
+  padding: 1rem;
+  border-radius: 20rem;
+  transition: background-color .5s;
+}
+
+#menu li:hover{
+  background-color: #464646;
+}
+
 header{
   display: flex;
   flex-direction: column;
@@ -51,7 +113,7 @@ h1{
   line-height: normal;
 }
 
-span{
+header span{
   color: #8a95fe;
   text-shadow: 1px 1px 2px rgb(247, 244, 244);
   font-size: 2rem;
@@ -72,7 +134,7 @@ span{
   background-color: #22355a;
 }
 
-#modelo1 {
+#modelos {
   background-image: url('https://mobilidade.estadao.com.br/wp-content/uploads/2021/12/Tiger-1200_All-Family_MY22_G0I7816_ML-1.jpg');
   background-size: cover;
   height: 100%;
@@ -87,7 +149,7 @@ span{
   padding: 17rem;
 }
 
-#modelo1 img{
+#modelos img{
   height: 20rem;
   width: 20rem;
   border-radius: 20%;
@@ -125,7 +187,7 @@ span{
   
 }
 
-#modelo1 ul {
+#modelos ul {
   display: flex;
   justify-content: space-around;
   align-items: center;

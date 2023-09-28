@@ -6,7 +6,6 @@ let cep = document.querySelector("#cep")
 
 const campoLayoutSim = document.querySelector("#layout_sim")
 const campoLayoutNao = document.querySelector("#layout_nao")
-
 const output = document.querySelector("output")
 
 const cilin = document.querySelector("#cc")
